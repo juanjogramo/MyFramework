@@ -3,7 +3,9 @@ import SwiftUI
 @testable import MyFramework
 
 final class MyFrameworkTests: XCTestCase {
-    @State private var text: String
+    @State private var text: String = ""
+    
+    
     
     func testExample() {
         
